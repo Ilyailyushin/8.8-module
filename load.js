@@ -1,7 +1,6 @@
 const startBtn = document.querySelector(".start-btn");
 const wrap = document.querySelector(".wrap");
 
-let parallelTaskNum = 1;
 let data;
 
 fetch("https://api.thecatapi.com/v1/images/search?limit=10")
